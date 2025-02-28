@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YM Estúdio - Arquitetura de Interiores</title>
+  <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <section id="header" class="sticky-top"></section>
+
+  <main>
+    <section class="banner position-relative d-flex justify-content-center text-center text-light"> <!-- Sessão Banner-->
+      <div class="banner-text position-absolute">
+        <h1 class="display-3">DESCUBRA O SEU</h1>
+        <h1 class="display-3">ESPAÇO PERFEITO</h1>
+      </div>
+      <!-- Carousel -->
+      <div id="bannerCarousel" class="carousel slide w-100 h-100" data-bs-ride="carousel">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active">
+            <a href="/html/projetos.html">
+              <img src="/assets/pag_hm/bn_01.png" class="d-block w-100 h-100 object-fit-cover" alt="Imagem 1">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="/html/projetos.html">
+              <img src="/assets/pag_hm/bn_02.png" class="d-block w-100 h-100 object-fit-cover" alt="Imagem 2">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="/html/projetos.html">
+              <img src="/assets/pag_hm/bn_03.png" class="d-block w-100 h-100 object-fit-cover" alt="Imagem 3">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="/html/projetos.html">
+              <img src="/assets/pag_hm/bn_04.png" class="d-block w-100 h-100 object-fit-cover" alt="Imagem 3">
+            </a>
+          </div>
+        </div>
+        <!-- Controles do Carousel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="container my-5 pb-5"> <!-- Sessão: Quem somos -->
+      <div class="row align-items-stretch">
+        <div class="col-md-4 d-flex">
+          <img src="/assets/pag_hm/qns.png" alt="Casa moderna" class="img-fluid rounded-4 w-100 h-100 object-fit-cover">
+        </div>
+        <div class="col-md-7 d-flex">
+          <div class="p-4 bg-light rounded-4 d-flex flex-column justify-content-between h-100">
+            <h2 class="fw-bold">
+              QUEM <span class="text-primary">NÓS SOMOS.</span>
+            </h2>
+            <p>Sou Yasmin Martins, arquiteta e fundadora do YM Estúdio, um espaço dedicado a criar projetos de
+              arquitetura que são verdadeiras extensões da identidade de quem os vive. Meu objetivo vai além de apenas
+              planejar ambientes; busco construir espaços que tragam harmonia, funcionalidade e, principalmente, um
+              toque único de personalidade.</p>
+
+            <p>Acreditamos que a arquitetura deve ser uma experiência humana, por isso, cada projeto que desenvolvemos é
+              pensado com muito carinho, levando em consideração não só as necessidades práticas do cliente, mas também
+              suas emoções, histórias e desejos. Estamos aqui para transformar cada espaço de forma que ele reflita quem
+              você realmente é, sempre com respeito ao seu estilo e aos seus sonhos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light"> <!-- Sessão: Simplificando sua experiênca -->
+      <div class="container py-5">
+        <h2 class="container fw-bold">
+          <span class="text-primary">SIMPLIFICANDO</span> SUA EXPERIÊNCIA NO <span class="text-primary">SEU PROJETO.</span>
+        </h2>
+        <div class="row g-4 align-items-center">
+          <!-- Coluna do Accordion -->
+          <div class="col-md-6">
+            <div class="p-4 bg-white rounded-3 shadow-sm">
+              <div class="accordion accordion-flush" id="accordionFlush"></div>
+            </div>
+          </div>
+          <!-- Coluna da Imagem -->
+          <div class="col-md-6">
+            <div class="d-flex justify-content-center">
+              <img id="image-display" src="" alt="Imagem" class="img-fluid rounded-4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="footer"></section>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/js/scripts.js"></script>
+
+</html>
