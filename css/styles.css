@@ -177,7 +177,7 @@ footer {
     display: block;
   }
   .banner, .carousel-inner img {
-    height: 30vh;
+    height: 60vh;
     border-radius: 0;
     margin: 0;
   }
