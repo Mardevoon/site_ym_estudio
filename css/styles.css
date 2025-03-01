@@ -28,7 +28,7 @@ header, footer {
 
 /* Página Home */
 .banner {
-  height: 70vh;
+  height: 65vh;
   border-radius: 0 0 32px 32px;
   margin: 0 7%;
   overflow: hidden;
@@ -177,9 +177,12 @@ footer {
     display: block;
   }
   .banner, .carousel-inner img {
-    height: 60vh;
+    height: 30vh;
     border-radius: 0;
     margin: 0;
+  }
+  .banner-text {
+    padding-top: 2vh;
   }
   .hero h1 {
     font-size: 2rem;
