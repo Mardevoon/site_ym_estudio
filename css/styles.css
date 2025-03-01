@@ -5,22 +5,17 @@
   --cor-segundaria: #333;
 }
 
-.rounded-4 {
-  border-radius: 24px;
-}
+.rounded-4 { border-radius: 24px; }
 
-header, footer {
-  background-color: var(--logo-azul);
-}
+header, footer { background-color: var(--logo-azul); }
 
-.logo-mobile {
-  display: none;
-}
+.logo-mobile { display: none; }
 
 .navbar-nav .nav-link {
   color: var(--cor-primaria);
   transition: color 0.2s ease-in-out;
 }
+
 .navbar-nav .nav-link:hover {
   color: var(--logo-amarelo);
   font-weight: bold;
@@ -33,14 +28,14 @@ header, footer {
   margin: 0 7%;
   overflow: hidden;
 }
+
 .banner-text {
   padding-top: 7vh;
   text-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
-.carousel-inner img {
-  border-radius: 0 0 32px 32px;
-}
+
+.carousel-inner img { border-radius: 0 0 32px 32px; }
 
 #image-display {
   transition: opacity 0.3s ease-in-out;
@@ -48,32 +43,32 @@ header, footer {
 }
 
 /* Página Projetos */
-.projetos-main {
-  background-color: var(--cor-segundaria);
-}
+.projetos-main { background-color: var(--cor-segundaria); }
+
 .hero {
   background: url('/assets/pag_pj/img/44.jpg') no-repeat center/cover;
   height: 50vh;
 }
+
 .hero h1, .hero p {
   text-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
+
 .hero h1 {
   padding-top: 7vh;
   font-size: 3rem;
 }
-.hero p {
-  font-size: 1.2rem;
-}
 
-.projetos {
-  padding: 4% 7%;
-}
+.hero p { font-size: 1.2rem; }
+
+.projetos { padding: 4% 7%; }
+
 .thumbnail {
   position: relative;
   width: 100%;
   padding-top: 100%;
 }
+
 .img-container {
   position: absolute;
   top: 0;
@@ -82,13 +77,14 @@ header, footer {
   height: 100%;
   padding-bottom: 5%;
 }
+
 .img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
+
 .img-container:hover img {
   transform: scale(1.05);
   box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
@@ -108,37 +104,39 @@ header, footer {
   text-align: center;
   padding-top: 6vh;
 }
+
 .lightbox-img {
   max-width: 80%;
   max-height: 80vh;
   border-radius: 10px;
   box-shadow: 0 0.5em 2em rgba(0, 0, 0, 1);
 }
+
 .close, .prev, .next {
   position: absolute;
   color: var(--cor-primaria);
   cursor: pointer;
-}
-.close {
-  top: 20px;
-  right: 30px;
   font-size: 40px;
 }
+
+.close { top: 20px; right: 30px; }
+
 .prev, .next {
   top: 50%;
   transform: translateY(-50%);
-  font-size: 40px;
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
+
 .prev { left: 20px; }
 .next { right: 20px; }
+
 .prev:hover, .next:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Área da proposta */
+/* Área da Proposta */
 .container-prop {
   max-width: 800px;
   margin: 50px auto;
@@ -146,6 +144,7 @@ header, footer {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 iframe {
   border: none;
   width: 100%;
@@ -157,6 +156,7 @@ footer {
   padding: 2%;
   border-top: 4px solid var(--logo-amarelo);
 }
+
 .btn-warning {
   width: 45px;
   height: 45px;
@@ -164,46 +164,23 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.social-icons i {
-  color: var(--logo-azul);
-}
+
+.social-icons i { color: var(--logo-azul); }
 
 /* Responsivo */
 @media (max-width: 768px) {
-  .logo-desktop {
-    display: none;
-  }
-  .logo-mobile {
-    display: block;
-  }
+  .logo-desktop { display: none; }
+  .logo-mobile { display: block; }
   .banner, .carousel-inner img {
     height: 30vh;
     border-radius: 0;
     margin: 0;
   }
-  .banner-text {
-    padding-top: 2vh;
-  }
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .img-container:hover img {
-    transform: none;
-  }
-
-  .container-qs{
-    margin: 0 10%;
-  }
-
-  .hero {
-    height: 30vh;
-  }
-
-  .projetos {
-    padding: 10% 12%;
-  }
-
-  iframe {
-    height: 2600px;
-  }
+  .banner-text { padding-top: 2vh; }
+  .hero h1 { font-size: 2rem; }
+  .img-container:hover img { transform: none; }
+  .container-qs { margin: 0 10%; }
+  .hero { height: 30vh; }
+  .projetos { padding: 10% 12%; }
+  iframe { height: 2600px; }
 }
