@@ -52,7 +52,7 @@ header, footer {
   background-color: var(--cor-segundaria);
 }
 .hero {
-  background: url('/assets/pag_pj/banner.png') no-repeat center/cover;
+  background: url('/assets/pag_pj/img/44.jpg') no-repeat center/cover;
   height: 50vh;
 }
 .hero h1, .hero p {
@@ -67,7 +67,7 @@ header, footer {
 }
 
 .projetos {
-  padding: 3% 7%;
+  padding: 4% 7%;
 }
 .thumbnail {
   position: relative;
@@ -190,6 +190,19 @@ footer {
   .img-container:hover img {
     transform: none;
   }
+
+  .container-qs{
+    margin: 0 10%;
+  }
+
+  .hero {
+    height: 30vh;
+  }
+
+  .projetos {
+    padding: 10% 12%;
+  }
+
   iframe {
     height: 2600px;
   }
