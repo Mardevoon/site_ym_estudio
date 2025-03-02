@@ -179,7 +179,7 @@ footer {
   .banner-text { padding-top: 2vh; }
   .hero h1 { font-size: 2rem; }
   .img-container:hover img { transform: none; }
-  .container-qs { margin: 0 10%; }
+  .container-mg { margin: 0 4%; }
   .hero { height: 30vh; }
   .projetos { padding: 10% 12%; }
   iframe { height: 2600px; }
